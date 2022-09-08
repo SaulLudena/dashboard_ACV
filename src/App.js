@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/tailwind.css'
+import CircularChart from './components/CircularChart'
+import HelloClient from './components/HelloClient'
+import MonthsCharts from './components/MonthsChart'
+import SalesChart from './components/SalesChart'
+import Squares from './components/Squares'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      a
+      <div className="container grid grid-cols-1 max-w-md-7 sm:mx-auto sm:gap-y-2 sm:grid-cols-1 sm:col-span-12 lg:gap-3 gap-y-3 lg:grid-cols-12 ">
+        <HelloClient />
+        <Squares />
+        <MonthsCharts />
+        <SalesChart />
+        <CircularChart />*
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
