@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from 'recharts'
+import { LineChart, Line, XAxis, YAxis, ResponsiveContainer } from 'recharts'
 
 const data = [
   {
